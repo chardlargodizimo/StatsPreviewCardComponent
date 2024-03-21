@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stats Preview Card Component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-body grid center-items text-center fc-default ff-default fs-400">
+  <main class="bg-main grid">
+    <div aria-label="background image">
+      <picture>
+        <source srcset="./images/image-header-desktop.jpg" media="(min-width: 60em)">
+        <img src="./images/image-header-mobile.jpg" alt="">
+      </picture>
+      <div aria-label="background overlay" class="overlay"></div>
+    </div>
+    <section>
+      <h1 class="primary-heading fs-600">Get <span class="fc-accent">insights</span> that help your business grow.</h1>
+      <p class="fc-opacity-75 letter-spacing--small">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <ul role="list" class="stats flex letter-spacing--small">
+        <li class="stats__item fs-500 fw-700">10k+<span class="stats__label uppercase fs-300 fw-400 fc-opacity-60 ff-accent">companies</span></li>
+        <li class="stats__item fs-500 fw-700">314<span class="stats__label uppercase fs-300 fw-400 fc-opacity-60 ff-accent">templates</span></li>
+        <li class="stats__item fs-500 fw-700">12M+<span class="stats__label uppercase fs-300 fw-400 fc-opacity-60 ff-accent">queries</span></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
